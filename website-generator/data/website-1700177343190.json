@@ -1,0 +1,318 @@
+{
+   "theme": {
+      "semanticTokens": {
+         "colors": {
+            "chakra-body-text": {
+               "_light": "gray.800",
+               "_dark": "whiteAlpha.900"
+            },
+            "chakra-body-bg": {
+               "_light": "white",
+               "_dark": "gray.800"
+            }
+         }
+      },
+      "fontWeights": {
+         "hairline": 100,
+         "thin": 200,
+         "light": 300,
+         "normal": 400,
+         "medium": 500,
+         "semibold": 600,
+         "bold": 700,
+         "extrabold": 800,
+         "black": 900
+      },
+      "fonts": {
+         "heading": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+         "body": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+         "mono": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+         "brand": "Georgia, serif;"
+      },
+      "colors": {
+         "brand": {
+            "100": "#ff0000",
+            "200": "#ff0000",
+            "300": "#ff0000",
+            "400": "#ff0000",
+            "500": "#ff0000",
+            "600": "#ff0000",
+            "700": "#ff0000",
+            "800": "#ff0000",
+            "900": "#ff0000"
+         }
+      },
+      "components": {
+         "Button": {
+            "baseStyle": {},
+            "variants": {
+               "brand-top-nav": {
+                  "fontSize": "md",
+                  "bg": "white",
+                  "fontFamily": "brand",
+                  "_hover": {
+                     "backgroundColor": "#f9f9f9"
+                  }
+               },
+               "brand-top-nav-selected": {
+                  "fontSize": "md",
+                  "bg": "#f9f9f9",
+                  "fontFamily": "brand"
+               }
+            }
+         },
+         "Heading": {
+            "baseStyle": {},
+            "variants": {
+               "brand-top-nav": {
+                  "fontFamily": "brand",
+                  "fontSize": "lg",
+                  "lineHeight": 1.2
+               }
+            }
+         }
+      }
+   },
+   "pages": [
+      {
+         "pageType": "BLOG_PAGE",
+         "name": "BLOG_PAGE1700085455433",
+         "description": "",
+         "menuLabel": "Home",
+         "heading": "This is a blog page",
+         "body": "Example page body text",
+         "backgroundColor": "white",
+         "posts": [
+            {
+               "blogPostType": "IMAGE_POST",
+               "postBorder": "HAS_BORDER",
+               "name": "",
+               "description": "",
+               "heading": "Teaching My Boy!",
+               "body": "Example post text",
+               "layout": "VERTICAL_IMAGE_BELOW",
+               "postWidth": "FULL_WIDTH",
+               "imageUrl": "https://static.wixstatic.com/media/c74032_efd2ad4e1e964518b135ce61bf0c1825~mv2.jpg/v1/fill/w_2089,h_709,fp_0.50_0.50,q_85,enc_auto/c74032_efd2ad4e1e964518b135ce61bf0c1825~mv2.jpg",
+               "headingPosition": "ON_TOP_OF_IMAGE",
+               "headerTextColor": "orange.300"
+            },
+            {
+               "blogPostType": "TEXT_POST",
+               "postBorder": "HAS_BORDER",
+               "name": "",
+               "description": "",
+               "heading": "This is my website",
+               "body": "I teach musics.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur euismod viverra. Vestibulum quis ornare tortor. Donec at lacus a eros mollis bibendum. Aliquam mattis massa libero, sit amet rhoncus metus vulputate elementum. Maecenas sit amet dui vel purus aliquam consequat. Proin efficitur nisl non ultrices porttitor. Ut a volutpat sem. Fusce ut leo ex. Proin condimentum sagittis eros, sed luctus tortor. Duis molestie est leo, vel laoreet sapien vestibulum et. In lobortis laoreet arcu, quis interdum augue aliquam eget. Quisque ac aliquet diam. Phasellus laoreet ante vitae consectetur placerat"
+            },
+            {
+               "blogPostType": "IMAGE_POST",
+               "postBorder": "NO_BORDER",
+               "name": "",
+               "description": "",
+               "heading": "a surfings",
+               "body": "Example post text\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+               "layout": "VERTICAL_IMAGE_BELOW",
+               "postWidth": "BLOG_POST",
+               "imageUrl": "http://localhost:9999/public/images/gallery-option-3.jpg",
+               "headingPosition": "INHERIT"
+            }
+         ]
+      },
+      {
+         "pageType": "BLOG_PAGE",
+         "name": "My Blog",
+         "description": "",
+         "menuLabel": "Blog",
+         "heading": "This is a blog page",
+         "body": "Example page body text",
+         "backgroundColor": "gray.200",
+         "posts": [
+            {
+               "blogPostType": "IMAGE_POST",
+               "postBorder": "HAS_BORDER",
+               "name": "",
+               "description": "",
+               "heading": "I'm your doggy",
+               "body": "Example post text",
+               "layout": "VERTICAL_IMAGE_BELOW",
+               "postWidth": "FULL_BLEED",
+               "imageUrl": "http://localhost:9999/public/images/dog3.jpg",
+               "headingPosition": "ON_TOP_OF_IMAGE"
+            },
+            {
+               "blogPostType": "FILES_POST",
+               "postBorder": "HAS_BORDER",
+               "name": "",
+               "description": "",
+               "heading": "Files Post: Example files post heading",
+               "body": "Example files post text",
+               "files": [
+                  {
+                     "name": "sample1.pdf",
+                     "description": "A sample 1",
+                     "fileUrl": "http://localhost:9999/public/files/sample.pdf"
+                  },
+                  {
+                     "name": "sample2.pdf",
+                     "description": "A sample 2",
+                     "fileUrl": "http://localhost:9999/public/files/sample.pdf"
+                  }
+               ]
+            },
+            {
+               "blogPostType": "TEXT_POST",
+               "postBorder": "HAS_BORDER",
+               "name": "",
+               "description": "",
+               "heading": "Text Post: Example blog post heading",
+               "body": "Example post text"
+            },
+            {
+               "blogPostType": "IMAGE_POST",
+               "postBorder": "HAS_BORDER",
+               "name": "",
+               "description": "",
+               "heading": "just the image",
+               "body": "Apart from a surfboard, there is essential gear required for safe and enjoyable surfing. This includes a wetsuit or rash guard, surf wax, fins, leash, and surfboard bag.",
+               "layout": "VERTICAL_IMAGE_ABOVE",
+               "postWidth": "BLOG_POST",
+               "imageUrl": "http://localhost:9999/public/images/dog2.jpg",
+               "headingPosition": "INHERIT",
+               "body2": "Example post text",
+               "layout2": "VERTICAL_IMAGE_BELOW",
+               "imageUrl2": "https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_4x3.jpg"
+            },
+            {
+               "blogPostType": "VIDEO_POST",
+               "postBorder": "HAS_BORDER",
+               "name": "",
+               "description": "",
+               "heading": "Video Post: Example blog post heading",
+               "body": "Example post text",
+               "layout": "VERTICAL_IMAGE_BELOW",
+               "postWidth": "BLOG_POST",
+               "videoId": "IlOemXqTOW8",
+               "optionalVideos": [
+                  {
+                     "videoId": "jyn_orqdyHQ",
+                     "thumbnailImageUrl": "https://i.ytimg.com/vi/jyn_orqdyHQ/mqdefault.jpg"
+                  },
+                  {
+                     "videoId": "6fezIiROLjQ",
+                     "thumbnailImageUrl": "https://i.ytimg.com/vi/6fezIiROLjQ/mqdefault.jpg"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "pageType": "BLOG_PAGE",
+         "name": "",
+         "description": "",
+         "menuLabel": "Surfing",
+         "heading": "Surfing 101: Riding the Waves",
+         "body": "Surfing is a popular water sport that involves riding ocean waves on a surfboard. It originated in ancient Polynesia and has evolved into a global phenomenon. Here is a breakdown of the key aspects of surfing:\n\n1. Surfboard: The primary equipment used in surfing is the surfboard. There are different types and sizes of surfboards designed for various surfing conditions.\n\n2. Waves: Surfing requires waves for riding. Waves are formed by wind blowing over the ocean surface and come in different sizes and shapes.\n\n3. Paddling: Before catching a wave, surfers use their arms to paddle out to the lineup, where they wait for waves.\n\n4. Takeoff: Once a suitable wave approaches, the surfer paddles and then pops up to their feet in a motion called takeoff.\n\n5. Riding: Surfers ride the face of the wave by using various techniques, including turning, trimming, and carving.\n\n6. Maneuvers: Advanced surfers perform maneuvers such as cutbacks, aerials, and barrels to showcase their skills.\n\nSurfing is not only a sport but also a way of life for many enthusiasts. It offers a unique connection with nature and the ocean, providing both physical exercise and a sense of freedom.\n\nIf you want to learn more about surfing, check out the following video:",
+         "backgroundColor": "gray.200",
+         "posts": [
+            {
+               "blogPostType": "VIDEO_POST",
+               "postBorder": "HAS_BORDER",
+               "name": "",
+               "description": "",
+               "heading": "Surfing Basics: How to Catch a Wave",
+               "body": "A beginner's guide to catching and riding waves in surfing.",
+               "layout": "VERTICAL_IMAGE_BELOW",
+               "postWidth": "BLOG_POST",
+               "videoId": "k_Vd9SYg4wI",
+               "optionalVideos": [
+                  {
+                     "videoId": "k_Vd9SYg4wI",
+                     "thumbnailImageUrl": "https://i.ytimg.com/vi/k_Vd9SYg4wI/mqdefault.jpg"
+                  },
+                  {
+                     "videoId": "Px3CwJ7dv2Q",
+                     "thumbnailImageUrl": "https://i.ytimg.com/vi/Px3CwJ7dv2Q/mqdefault.jpg"
+                  },
+                  {
+                     "videoId": "cRdMGutyHes",
+                     "thumbnailImageUrl": "https://i.ytimg.com/vi/cRdMGutyHes/mqdefault.jpg"
+                  }
+               ],
+               "youTubeVideoLink": "https://www.youtube.com/watch?v=6iFJtOF2cOw"
+            },
+            {
+               "blogPostType": "TEXT_POST",
+               "postBorder": "HAS_BORDER",
+               "name": "",
+               "description": "",
+               "heading": "Different Types of Surfboards",
+               "body": "Surfboards come in various shapes and sizes to suit different wave conditions. Some common types of surfboards include longboards, shortboards, fish boards, and funboards."
+            },
+            {
+               "blogPostType": "TEXT_POST",
+               "postBorder": "HAS_BORDER",
+               "name": "",
+               "description": "",
+               "heading": "Safety Tips for Surfing",
+               "body": "Surfing can be a thrilling but potentially dangerous sport. It is essential to prioritize safety while in the water. Some safety tips for surfing include checking the local surf conditions, wearing a leash, using proper surfing etiquette, and staying aware of your surroundings."
+            },
+            {
+               "blogPostType": "IMAGE_POST",
+               "postBorder": "HAS_BORDER",
+               "name": "",
+               "description": "",
+               "heading": "Surfing Locations Around the World",
+               "body": "Each coast and country offers unique surfing spots. From the famous breaks of Hawaii to the pristine beaches of Indonesia, here are some popular surfing destinations around the world:",
+               "layout": "VERTICAL_IMAGE_BELOW",
+               "postWidth": "FULL_BLEED",
+               "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/130624175338-50-surf-spots-wavepool.jpg?q=w_2373,h_1582,x_0,y_0,c_fill/h_618",
+               "headingPosition": "ON_TOP_OF_IMAGE",
+               "optionalImages": [
+                  {
+                     "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/130624175338-50-surf-spots-wavepool.jpg?q=w_2373,h_1582,x_0,y_0,c_fill/h_618"
+                  },
+                  {
+                     "imageUrl": "https://57hours.com/wp-content/uploads/2019/12/Best-Surf-Spots-World-Map.jpg"
+                  }
+               ]
+            },
+            {
+               "blogPostType": "TEXT_POST",
+               "postBorder": "HAS_BORDER",
+               "name": "",
+               "description": "",
+               "heading": "Surfing Competitions and Events",
+               "body": "Surfing has a competitive side with various professional and amateur competitions happening worldwide. Some major surfing events include the World Surf League Championship Tour, Vans Triple Crown of Surfing, and the Quiksilver Pro."
+            },
+            {
+               "blogPostType": "IMAGE_POST",
+               "postBorder": "HAS_BORDER",
+               "name": "",
+               "description": "",
+               "heading": "Surfing Gear and Equipment",
+               "body": "Apart from a surfboard, there is essential gear required for safe and enjoyable surfing. This includes a wetsuit or rash guard, surf wax, fins, leash, and surfboard bag.",
+               "layout": "VERTICAL_IMAGE_BELOW",
+               "postWidth": "BLOG_POST",
+               "imageUrl": "https://wavehousebali.com/wp-content/uploads/2017/11/Surfstuff_result.jpg",
+               "headingPosition": "INHERIT",
+               "optionalImages": [
+                  {
+                     "imageUrl": "https://wavehousebali.com/wp-content/uploads/2017/11/Surfstuff_result.jpg"
+                  },
+                  {
+                     "imageUrl": "https://media.cntraveler.com/photos/5f2bff57ae81c1a4a493363a/master/w_1600%2Cc_limit/SurfBoard-SurfGear.jpg"
+                  }
+               ]
+            },
+            {
+               "blogPostType": "TEXT_POST",
+               "postBorder": "HAS_BORDER",
+               "name": "",
+               "description": "",
+               "heading": "Environmental Impact of Surfing",
+               "body": "Surfers have a close relationship with the ocean and are often passionate about protecting it. Surfers engage in initiatives to preserve coastal ecosystems, raise awareness about pollution, and support sustainable practices in the surfing industry."
+            }
+         ]
+      }
+   ]
+}

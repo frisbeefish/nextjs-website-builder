@@ -1,0 +1,37 @@
+import { BLOG_POST_TYPES } from "@/app/_shared/constants";
+
+import { getCreateWebpageSystemPrompt } from "./system-prompts";
+import { aiSimpleChatExchange } from "./ai";
+import {
+  searchForImages,
+  searchForYouTubeVideos,
+} from "@/app/_server/services/web-search";
+
+export default async function generateWebPage({ userQuery }) {
+  const systemPrompt = await getCreateWebpageSystemPrompt();
+
+  const response = await aiSimpleChatExchange({ systemPrompt, userQuery });
+
+  let webpageJson = JSON.parse(response);
+
+  const posts = [];
+
+  for (let post of webpageJson.posts) {
+    if (post.blogPostType === BLOG_POST_TYPES.IMAGE_POST) {
+      post.optionalImages = await searchForImages(post.heading);
+      post.imageUrl = post.optionalImages[0].imageUrl || post.imageUrl;
+      post.layout = "VERTICAL_IMAGE_BELOW";
+    } else if (post.blogPostType === BLOG_POST_TYPES.VIDEO_POST) {
+      post.optionalVideos = await searchForYouTubeVideos(post.heading);
+      post.videoId = post.optionalVideos[0].videoId || post.videoId;
+      post.layout = "VERTICAL_IMAGE_BELOW";
+    }
+    posts.push(post);
+  }
+
+  webpageJson.posts = posts;
+
+  return {
+    webpageJson,
+  };
+}

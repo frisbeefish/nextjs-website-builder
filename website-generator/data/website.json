@@ -1,0 +1,166 @@
+{
+  "theme": {
+    "semanticTokens": {
+      "colors": {
+        "chakra-body-text": {
+          "_light": "gray.800",
+          "_dark": "whiteAlpha.900"
+        },
+        "chakra-body-bg": {
+          "_light": "white",
+          "_dark": "gray.800"
+        }
+      }
+    },
+    "fontWeights": {
+      "hairline": 100,
+      "thin": 200,
+      "light": 300,
+      "normal": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "extrabold": 800,
+      "black": 900
+    },
+    "fonts": {
+      "heading": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "body": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "mono": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+      "brand": "Georgia, serif;"
+    },
+    "colors": {
+      "brand": {
+        "100": "#ff0000",
+        "200": "#ff0000",
+        "300": "#ff0000",
+        "400": "#ff0000",
+        "500": "#ff0000",
+        "600": "#ff0000",
+        "700": "#ff0000",
+        "800": "#ff0000",
+        "900": "#ff0000"
+      }
+    },
+    "components": {
+      "Button": {
+        "baseStyle": {},
+        "variants": {
+          "brand": {
+            "bg": "yellow",
+            "fontFamily": "brand"
+          }
+        }
+      }
+    }
+  },
+  "pages": [
+    {
+      "pageType": "SINGLE_IMAGE_PAGE",
+      "name": "My Home Page",
+      "description": "",
+      "menuLabel": "Home chd",
+      "heading": "This is the home page",
+      "body": "Example page body text",
+      "fullBleedImage": false,
+      "imageUrl": "static/images/gallery-option-3.jpg"
+    },
+    {
+      "pageType": "BLOG_PAGE",
+      "name": "My Blog",
+      "description": "",
+      "menuLabel": "Blog",
+      "heading": "This is a blog page",
+      "body": "Example page body text",
+      "posts": [
+        {
+          "blogPostType": "FILES_POST",
+          "postWidth": "BLOG_POST",
+          "name": "",
+          "description": "",
+          "heading": "Files Post: Example files post heading",
+          "body": "Example files post text",
+          "files": [
+            {
+              "name": "sample1.pdf",
+              "description": "A sample 1",
+              "fileUrl": "static/files/sample.pdf"
+            },
+            {
+              "name": "sample2.pdf",
+              "description": "A sample 2",
+              "fileUrl": "static/files/sample.pdf"
+            }
+          ]
+        },
+        {
+          "blogPostType": "TEXT_POST",
+          "postWidth": "FULL_BLEED",
+          "name": "",
+          "description": "",
+          "heading": "Text Post: Example blog post heading",
+          "body": "Example post text"
+        },
+        {
+          "blogPostType": "IMAGE_POST",
+          "postWidth": "BLOG_POST",
+          "name": "",
+          "description": "",
+          "heading": "Image Post: Example blog post heading",
+          "body": "Apart from a surfboard, there is essential gear required for safe and enjoyable surfing. This includes a wetsuit or rash guard, surf wax, fins, leash, and surfboard bag.",
+          "layout": "VERTICAL_IMAGE_BELOW",
+          "imageUrl": "https://wavehousebali.com/wp-content/uploads/2017/11/Surfstuff_result.jpg",
+          "body2": "Example post text",
+          "layout2": "VERTICAL_IMAGE_BELOW",
+          "imageUrl2": "https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_4x3.jpg"
+        },
+
+        {
+          "blogPostType": "IMAGE_POST",
+          "postWidth": "FULL_BLEED",
+          "name": "",
+          "description": "",
+          "heading": "Image Post: Example blog post heading",
+          "headingPosition": "ON_TOP_OF_IMAGE",
+          "body": "Apart from a surfboard, there is essential gear required for safe and enjoyable surfing. This includes a wetsuit or rash guard, surf wax, fins, leash, and surfboard bag.",
+          "layout": "VERTICAL_IMAGE_BELOW",
+          "imageUrl": "https://wavehousebali.com/wp-content/uploads/2017/11/Surfstuff_result.jpg",
+          "body2": "Example post text",
+          "layout2": "VERTICAL_IMAGE_BELOW",
+          "imageUrl2": "https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_4x3.jpg"
+        },
+
+        {
+          "blogPostType": "VIDEO_POST",
+          "postWidth": "FULL_BLEED",
+          "name": "",
+          "description": "",
+          "heading": "Video Post: Example blog post heading",
+          "body": "Example post text",
+          "layout": "VERTICAL_IMAGE_BELOW",
+          "videoId": "IlOemXqTOW8",
+          "optionalVideos": [
+            {
+              "videoId": "jyn_orqdyHQ",
+              "thumbnailImageUrl": "https://i.ytimg.com/vi/jyn_orqdyHQ/mqdefault.jpg"
+            },
+            {
+              "videoId": "6fezIiROLjQ",
+              "thumbnailImageUrl": "https://i.ytimg.com/vi/6fezIiROLjQ/mqdefault.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageType": "CONTACT_PAGE",
+      "name": "My Contact Page",
+      "description": "",
+      "menuLabel": "Contact",
+      "heading": "This is the contact page",
+      "body": "Example page body text",
+      "fullBleedImage": false,
+      "imageUrl": "https://images.pond5.com/beautiful-young-girl-playing-violin-084669644_prevstill.jpeg"
+    }
+  ]
+}
